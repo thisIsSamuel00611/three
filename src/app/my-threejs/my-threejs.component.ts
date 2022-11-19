@@ -180,8 +180,8 @@ export class MyThreejsComponent implements OnInit {
       // Update objects
       sphere.rotation.y = .5 * elapsedTime
       sphere.rotation.y += .5 * (targetX - sphere.rotation.y)
-      sphere.rotation.x += .05 * (targetY - sphere.rotation.x)
-      sphere.position.z += -.05 * (targetY - sphere.rotation.x)
+      sphere.rotation.x += .5 * (targetY - sphere.rotation.x)
+      sphere.position.z += -.5 * (targetY - sphere.rotation.x)
 
       // Update Orbital Controls
       // controls.update()
