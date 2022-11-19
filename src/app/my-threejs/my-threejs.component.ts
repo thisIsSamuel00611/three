@@ -23,7 +23,7 @@ export class MyThreejsComponent implements OnInit {
     const gui = new dat.GUI()
 
     // Canvas
-    const canvas = document.querySelector('canvas.webgl')
+    const canvas : any = document.querySelector('canvas.webgl')
 
     // Scene
     const scene = new THREE.Scene()
